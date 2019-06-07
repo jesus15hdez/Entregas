@@ -1,0 +1,402 @@
+header{
+  background-color: black;
+}
+
+#divisor {
+  background-color: #ffc700;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+hr {
+  padding: 1px;
+  border-radius: 8px;
+  border-color: #000;
+  background-color: #000;
+}
+
+#crearUsuarioB, #modificarUsuarioB {
+  width: 50%;
+}
+
+#ruta, #ruta2 {
+  text-transform: uppercase;
+}
+
+#privilegios1, #privilegios2 {
+  width: 50%;
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#addUser, #addUser2 {
+  background-color: #01aa58;
+  border: 3px solid #0a6938;
+}
+
+#backup2 {
+  background-color: #dd5203;
+  border: 3px solid #8e3401;
+}
+
+#backup4 {
+  background-color: #f12462;
+  border: 3px solid #cd0037;
+}
+
+#deleteUser2 {
+  background-color: #d42626;
+  border: 3px solid #690a10;
+}
+
+#agregar2 {
+  background-color: #0174df;
+  border: 3px solid #0016b0;
+}
+
+#inicio {
+  background-color: #c91059;
+  border: 3px solid #000;
+  text-align: center;
+  font-size: 85%;
+  font-family: Bungee Inline;
+}
+
+#inicio:hover{
+  background-color: #28b44f;
+}
+
+#eliminar2 {
+  background-color: #d60d40;
+  border: 3px solid #9f0b4e;
+}
+
+#modificar2 {
+  background-color: #8e08aa;
+  border: 3px solid #560a69;
+}
+
+#editUser2, #editUser3, #modificarUsuarioB {
+  background-color: #eec40b;
+  border: 3px solid #a2882d;
+}
+
+.admin {
+  width: 100px;
+  height: 100px;
+}
+
+.admin:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.admin:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#imagenesAdmin, #etiquetasAdmin {
+  display: grid;
+  width: 35%;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+h1 {
+  text-shadow: 3px 2px #c1c1c1;
+  color: #2a2a2a;
+  font-family: Ewert;
+  font-size: 37px;
+  text-decoration: overline underline;
+}
+
+h3 {
+  font-family: 'Sofia';
+  font-size: 30px;
+}
+
+.labels {
+  font-family: 'Faster One';
+  font-size: 18px;
+}
+
+body {
+  font-family: Bungee Inline;
+  background-image: url('../img/fondo.jpg');
+  background-size: 100%;
+}
+
+img {
+  border-radius: 12px;
+  width: 70%;
+  height: 70%;
+  border: 3px solid #000000;
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#accederB, #eliminarUsuarioB {
+  width: 100%;
+}
+
+#accederB {
+  background-color: #085ca8;
+  border: 3px solid #0016b0;
+}
+
+#accederB::after {
+  content: '    \00bb';
+  right: -20px;
+  transition: 0.5s;
+  opacity: 0;
+  top: 0;
+}
+
+#accederB:hover {
+  padding-right: 25px;
+}
+
+#accederB:hover:after {
+  opacity: 1;
+  right: 0;
+}
+
+#usuario, #contrasena, #nameUser, #pwd, #nameUser2, #nameUser3, #pwd3, #newNameUser {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#user {
+  width: 180px;
+  height: 180px;
+}
+
+#user2, #newUser, #deleteUser, #editUser, #backup, #backup3 {
+  width: 50%;
+  background-color: white;
+  padding: 15px;
+  text-align: left;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#backup, #backup3 {
+  text-align: center;
+}
+
+div {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 8px;
+  width: 80%;
+  margin: auto;
+  padding: 12px;
+}
+
+#encabezado {
+  width: 40%;
+  padding: 12px;
+  margin: auto;
+  transition: 0.3s;
+}
+
+table {
+  width: 70%;
+}
+
+fieldset {
+  border: 2px solid black;
+  text-align: center;
+  align: center;
+  border-radius: 8px;
+  width: 68%;
+  background-color: #fff;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #C2185B;
+  color: white;
+  border: 3px solid #880E4F;
+}
+
+tr {
+  background-color: #fcfcfc;
+}
+
+tr:hover {
+  color: white;
+  background-color: #0e90c1;
+  border: 3px solid #1454d1;
+}
+
+input[type=text], select, [type=number], [type=password] {
+  width: 30%;
+  font-family: 'Secular One';
+  font-size: 100%;
+  padding: 6px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+#usuario, #nameUser, #nameUser2, #nameUser3, #newNameUser {
+  background-image: url('../img/iconoUser.png');
+  background-position: 5px 7px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+
+#contrasena, #pwd, #pwd3 {
+  background-image: url('../img/contraseñaUser.png');
+  background-position: 5px 7px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+
+#ide, #idm {
+  background-image: url('../img/id.png');
+  background-position: 5px 4px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+
+input[type=number] {
+  background-image: url('../img/costo.jpg');
+  background-position: 5px 4px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+select {
+  background-image: url('../img/preparando.png');
+  background-position: 5px 2px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+input[type=password]:focus {
+  width: 40%;
+  border: 2px solid #555;
+}
+
+input[type=number]:focus {
+  width: 35%;
+  border: 2px solid #555;
+}
+
+.button1 {
+  background-color: #0174df;
+  border: 3px solid #0016b0;
+  color: white;
+  font-family: 'Secular One';
+  font-size: 13px;
+  padding: 8px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.button1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.button1:active {
+  background-color: #0174df;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button2 {
+  background-color: #d60d40;
+  border: 3px solid #9f0b4e;
+  color: white;
+  font-family: 'Secular One';
+  font-size: 13px;
+  padding: 8px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.button2:active {
+  background-color: #c70172;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button3 {
+  background-color: #8e08aa;
+  border: 3px solid #560a69;
+  color: white;
+  font-family: 'Secular One';
+  font-size: 12px;
+  padding: 8px 18px;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.button3:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.button3:active {
+  background-color: #8e08aa;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#eliminarUsuarioB {
+  background-color: #d42626;
+  border: 3px solid #690a10;
+}
+
+#crearUsuarioB {
+  background-color: #01aa58;
+  border: 3px solid #0a6938;
+}
+
+legend {
+  padding: 0.2em 0.5em;
+  border: 3px;
+  color: white;
+  font-size: 90%;
+  font-family: 'Secular One';
+  text-align: left;
+  border-radius: 8px;
+}

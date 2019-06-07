@@ -1,0 +1,14 @@
+<form id="agregar" method="POST">
+		<fieldset >
+		<legend id="agregar2">Agregar Entrega</legend>
+		Estado: <select class="lista" name="estado" required>
+        <option value="Preparando">Preparando</option>
+        <option value="En Camino">En Camino</option>
+        <option value="Entregado">Entregado</option>
+		</select>
+		Costo: <input type="number" name="costo" id="costoText" min="1" max="9999999999" placeholder="Ingrese el costo" required>
+		<button type="button" class="button button1" onClick="agregar()">Guardar</button>
+		</fieldset>
+</form>
+<script type="text/javascript" src="js/setup.js"></script>
+<script type="text/javascript" src="js/index.js"></script>

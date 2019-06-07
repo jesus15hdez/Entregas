@@ -1,0 +1,17 @@
+<form id="modificar1" method="POST">
+	<fieldset>
+		<legend id="modificar2">Modificar Entrega</legend>
+		Id Entrega: <input type="number" name="idm" id="idm" min="1" max="9999999999" placeholder="Ingrese el identificador" maxlength="6">
+		<button type="button" class="button button3" id="busqueda">Buscar</button>
+		<br>
+		Estado: <select id="listam" class="listam" name="estadom" disabled>
+			<option value="Preparando">Preparando</option>
+			<option value="En Camino">En Camino</option>
+			<option value="Entregado">Entregado</option>
+		</select>
+		Costo: <input type="number" name="costom" id="costom" placeholder="Ingrese aqui el nuevo costo" disabled>
+		<button type="button" class="button button3" id="activar" onClick="modificar()" disabled>Modificar</button>
+	</fieldset>
+</form>
+<script type="text/javascript" src="js/setup.js"></script>
+<script type="text/javascript" src="js/index.js"></script>

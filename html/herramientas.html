@@ -1,0 +1,35 @@
+<html>
+<h3>Respaldo de la Base de Datos</h3>
+<form>
+  <fieldset id="backup">
+    <legend id="backup2">Control Tienda</legend>
+    <label>Letra de la unidad</label>
+    <input type="text" id="ruta" maxlength="1">
+    <button type="button" id="respaldar" class="button1" onClick="respaldo()">Crear Respaldo</button>
+  </fieldset>
+</form>
+<br>
+<h3>Restauracion de la Base de Datos</h3>
+<form>
+  <fieldset id="backup3">
+    <legend id="backup4">Control Tienda</legend>
+    <label>Ubicación del Archivo</label>
+    <input type="text" id="ruta2" maxlength="1">
+    <button type="button" id="restaurar" class="button1" onClick="restaurarDatos()">Restaurar Datos</button>
+  </fieldset>
+</form>
+<br>
+<hr>
+<h3>Administrador de Usuarios</h3>
+<div id="imagenesAdmin">
+  <img class="admin" src="img/agregarUsuario.png" onclick="usuario(1)">
+  <img class="admin" src="img/eliminarUsuario.jpg" onclick="usuario(2)">
+  <img class="admin" src="img/editarUsuario.jpg" onclick="usuario(3)">
+  <label class="labels">Añadir</label>
+  <label class="labels">Eliminar</label>
+  <label class="labels">Modificar</label>
+</div>
+<script type="text/javascript" src="js/respaldo.js"></script>
+<script type="text/javascript" src="js/restauracion.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>

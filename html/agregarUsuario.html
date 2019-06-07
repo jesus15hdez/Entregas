@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<form id="usuarioForm">
+  <fieldset id="newUser">
+    <legend id="addUser">Agregar Usuario</legend>
+    <label>Nombre de Usuario</label>
+    <input id="nameUser" name="nameUser" type="text" placeholder="User name">
+    <label>Contraseña</label>
+    <input id="pwd" name="pwd" type="password" placeholder="Password">
+  </fieldset>
+</form>
+<br>
+<form id="usuarioForm2">
+  <fieldset id="privilegios1">
+    <legend id="addUser2">Privilegios del Usuario</legend>
+    <input type="checkbox" id="privilegio1" name="privilegio1" value="select"> <label>Select</label>
+    <input type="checkbox" id="privilegio2" name="privilegio2" value="insert"> <label>Insert</label>
+    <input type="checkbox" id="privilegio3" name="privilegio3" value="update"> <label>Update</label>
+    <input type="checkbox" id="privilegio4" name="privilegio4" value="delete"> <label>Delete</label>
+    <input type="checkbox" id="privilegio5" name="privilegio5" value="file"> <label>File</label>
+  </fieldset>
+</form>
+<button type="button" id="crearUsuarioB" class="button button2" onclick="crearUsuario()">Crear Nuevo Usuario</button>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/usuarios.js"></script>
+</html>

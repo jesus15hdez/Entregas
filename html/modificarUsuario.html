@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<form>
+  <fieldset id="editUser">
+    <legend id="editUser2">Modificar Usuario</legend>
+    <label>Nombre de Usuario</label>
+    <input id="nameUser3" type="text" placeholder="User name">
+    <hr id="divisor">
+    <label>Nuevo Nombre de Usuario</label>
+    <input id="newNameUser" type="text" placeholder="New User name" disabled>
+    <label>Contraseña</label>
+    <input id="pwd3" type="password" placeholder="Password" disabled>
+  </fieldset>
+</form>
+<br>
+<form>
+  <fieldset id="privilegios2">
+    <legend id="editUser3">Privilegios del Usuario</legend>
+    <input type="checkbox" id="privilegio6" name="privilegio6" value="select" disabled> <label>Select</label>
+    <input type="checkbox" id="privilegio7" name="privilegio7" value="insert" disabled> <label>Insert</label>
+    <input type="checkbox" id="privilegio8" name="privilegio8" value="update" disabled> <label>Update</label>
+    <input type="checkbox" id="privilegio9" name="privilegio9" value="delete" disabled> <label>Delete</label>
+    <input type="checkbox" id="privilegio10" name="privilegio10" value="file" disabled> <label>File</label>
+  </fieldset>
+</form>
+<button type="button" id="modificarUsuarioB" class="button button2" onclick="modificarUsuario()" disabled>Modificar Usuario</button>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/usuarios.js"></script>
+
+</html>
